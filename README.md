@@ -114,7 +114,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 ```javascript
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=vec_w&x={x}&y={y}&l={z}',
-'subdomains'  : ['1','2','3','4','5']
+'subdomains'  : ['1','2','3','4','5'],
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
 ```
 
@@ -122,7 +122,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 ```javascript
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}',
-'subdomains'  : ['1','2','3','4','5']
+'subdomains'  : ['1','2','3','4','5'],
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
 ```
 
@@ -132,7 +132,7 @@ Projection : **EPSG:4326**
 
 ```javascript
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=vec_c&x={x}&y={y}&l={z}',
-'subdomains'  : ['1','2','3','4','5']
+'subdomains'  : ['1','2','3','4','5'],
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
 ```
 
@@ -142,6 +142,6 @@ Projection : **EPSG:4326**
 
 ```javascript
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=cva_c&x={x}&y={y}&l={z}',
-'subdomains'  : ['1','2','3','4','5']
+'subdomains'  : ['1','2','3','4','5'],
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
 ```
