@@ -121,7 +121,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Baidu Custom](http://map.baidu.com)
 
-  Baidu Custom's style is decided by customid in URL, screen shots for different customid is as below:
+  Baidu Custom's style is decided by **customid** in URL, screen shots for different **customid** is as below:
 
 ```javascript
 'urlTemplate' : 'http://api{s}.map.bdimg.com/customimage/tile?&x={x}&y={y}&z={z}&scale=1&customid={customid}',
