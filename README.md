@@ -88,7 +88,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 # China
 
-## map.baidu.com
+## map.baidu.com (Projection : **baidu**)
 
 * [Baidu Standard](http://map.baidu.com)
 
@@ -136,10 +136,10 @@ A collection of raster tile service's urlTemplates and subDomains.
         <td>hardedge</td>
     </tr>
     <tr>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-dark.png)</td>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-midnight.png)</td>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-grayscale.png)</td>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-hardedge.png)</td></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-dark.png"></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-midnight.png"></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-grayscale.png"></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-hardedge.png"></td>
     </tr>
     <tr>        
         <td>light</td>
@@ -148,10 +148,10 @@ A collection of raster tile service's urlTemplates and subDomains.
         <td>grassgreen</td>
     </tr>
     <tr>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-light.png)</td>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-redalert.png)</td>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-googlelite.png)</td>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-grassgreen.png)</td></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-light.png"></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-redalert.png"></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-googlelite.png"></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-grassgreen.png"></td>
     </tr>
     <tr>        
         <td>pink</td>
@@ -160,10 +160,10 @@ A collection of raster tile service's urlTemplates and subDomains.
         <td></td>
     </tr>
     <tr>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-pink.png)</td>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-darkgreen.png)</td>
-        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-bluish.png)</td>
-        <td></td></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-pink.png"></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-darkgreen.png"></td>
+        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-bluish.png"></td>
+        <td></td>
     </tr>
 </tbody></table>
 </div>
