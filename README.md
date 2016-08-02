@@ -17,10 +17,27 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains' : ['a','b','c']
 ```
 
-* [Open Street Map Bike](http://www.openstreetmap.org/#layers=C) 
+* [Open Street Map Bicycle](http://www.openstreetmap.org/#layers=C) 
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-bike.png)
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-cycle.png)
 ```javascript
 'urlTemplate' : 'http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png',
 'subdomains' : ['a','b','c']
 ```
+
+* [Open Street Map Transport](http://www.openstreetmap.org/#layers=T) 
+
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-transport.png)
+```javascript
+'urlTemplate' : 'http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png',
+'subdomains' : ['a','b','c']
+```
+
+* [Open Street Map Humanitarian](http://www.openstreetmap.org/#layers=H) 
+
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-human.png)
+```javascript
+'urlTemplate' : 'http://tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png',
+'subdomains' : ['a','b','c']
+```
+
