@@ -45,3 +45,38 @@ A collection of raster tile service's urlTemplates and subDomains.
 'attribution' : '&copy; <a href="http://www.osm.org" target="_blank">OpenStreetMap</a> contributors'
 ```
 
+* [Carto.com Light](http://www.carto.com) 
+
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/carto-light.png)
+```javascript
+'urlTemplate' : 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+'subdomains' : ['a','b','c','d','e'],
+'attribution' : '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
+```
+
+* [Carto.com Light No-Label](http://www.carto.com) 
+
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/carto-light-nolabel.png)
+```javascript
+'urlTemplate' : 'http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',
+'subdomains' : ['a','b','c','d','e'],
+'attribution' : '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
+```
+
+* [Carto.com Dark](http://www.carto.com) 
+
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/carto-dark.png)
+```javascript
+'urlTemplate' : 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+'subdomains' : ['a','b','c','d','e'],
+'attribution' : '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
+```
+
+* [Carto.com Dark No-Label](http://www.carto.com) 
+
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/carto-dark-nolabel.png)
+```javascript
+'urlTemplate' : 'http://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png',
+'subdomains' : ['a','b','c','d','e'],
+'attribution' : '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
+```
