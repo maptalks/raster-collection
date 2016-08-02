@@ -14,8 +14,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Open Street Map Standard](http://www.openstreetmap.org) 
 
-
-<img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-standard.png" align="left" hspace="10" vspace="6">
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-standard.png)
 
 ```javascript
 'urlTemplate' : 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
