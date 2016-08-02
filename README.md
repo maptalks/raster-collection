@@ -14,7 +14,8 @@ A collection of raster tile service's urlTemplates and subDomains.
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-standard.png)
 ```javascript
 'urlTemplate' : 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-'subdomains' : ['a','b','c']
+'subdomains' : ['a','b','c'],
+'attribution' : '&copy; <a href="http://www.osm.org" target="_blank">OpenStreetMap</a> contributors'
 ```
 
 * [Open Street Map Bicycle](http://www.openstreetmap.org/#layers=C) 
@@ -22,7 +23,8 @@ A collection of raster tile service's urlTemplates and subDomains.
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-cycle.png)
 ```javascript
 'urlTemplate' : 'http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png',
-'subdomains' : ['a','b','c']
+'subdomains' : ['a','b','c'],
+'attribution' : '&copy; <a href="http://www.osm.org" target="_blank">OpenStreetMap</a> contributors'
 ```
 
 * [Open Street Map Transport](http://www.openstreetmap.org/#layers=T) 
@@ -30,7 +32,8 @@ A collection of raster tile service's urlTemplates and subDomains.
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-transport.png)
 ```javascript
 'urlTemplate' : 'http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png',
-'subdomains' : ['a','b','c']
+'subdomains' : ['a','b','c'],
+'attribution' : '&copy; <a href="http://www.osm.org" target="_blank">OpenStreetMap</a> contributors'
 ```
 
 * [Open Street Map Humanitarian](http://www.openstreetmap.org/#layers=H) 
@@ -38,6 +41,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-human.png)
 ```javascript
 'urlTemplate' : 'http://tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png',
-'subdomains' : ['a','b','c']
+'subdomains' : ['a','b','c'],
+'attribution' : '&copy; <a href="http://www.osm.org" target="_blank">OpenStreetMap</a> contributors'
 ```
 
