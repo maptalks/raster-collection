@@ -126,9 +126,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
 ```
 
-* [Tianditu Standard LonLat](http://www.tianditu.cn)
-
-Projection : **EPSG:4326**
+* [Tianditu Standard LonLat](http://www.tianditu.cn) (Projection : **EPSG:4326**)
 
 ```javascript
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=vec_c&x={x}&y={y}&l={z}',
@@ -136,9 +134,7 @@ Projection : **EPSG:4326**
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
 ```
 
-* [Tianditu Road LonLat](http://www.tianditu.cn)
-
-Projection : **EPSG:4326**
+* [Tianditu Road LonLat](http://www.tianditu.cn) (Projection : **EPSG:4326**)
 
 ```javascript
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=cva_c&x={x}&y={y}&l={z}',
