@@ -10,6 +10,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 # World
 * [Open Street Map Standard](http://www.openstreetmap.org) 
+
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-standard.png)
 ```javascript
 'urlTemplate' : 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -17,6 +18,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 ```
 
 * [Open Street Map Bike](http://www.openstreetmap.org/#layers=C) 
+
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-bike.png)
 ```javascript
 'urlTemplate' : 'http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png',
