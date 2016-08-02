@@ -176,7 +176,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/gaode-standard.png)
 ```javascript
-'urlTemplate' : 'http://webrd{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}',            
+'urlTemplate' : 'http://webrd{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}',
 'subdomains'  : ['01','02','03','04'],
 'attribution' : '&copy; <a href="http://www.gaode.com/">Gaode.com</a>'
 ```
@@ -194,7 +194,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/gaode-road.png)
 ```javascript
-'urlTemplate' : 'http://webst{s}.is.autonavi.com/appmaptile?x={x}&y={y}&z={z}&lang=zh_cn&size=1&scale=1&style=8',            
+'urlTemplate' : 'http://webst{s}.is.autonavi.com/appmaptile?x={x}&y={y}&z={z}&lang=zh_cn&size=1&scale=1&style=8',
 'subdomains'  : ['01','02','03','04'],
 'attribution' : '&copy; <a href="http://www.gaode.com/">Gaode.com</a>'
 ```
