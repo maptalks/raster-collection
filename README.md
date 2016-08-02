@@ -227,7 +227,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/tdt-4326-standard.png)
 
 ```javascript
-'tileSystem' : [1, -1, -180, 90],
+'tileSystem'  : [1, -1, -180, 90],
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=vec_c&x={x}&y={y}&l={z}',
 'subdomains'  : ['1','2','3','4','5'],
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
@@ -238,7 +238,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/tdt-4326-label.png)
 
 ```javascript
-'tileSystem' : [1, -1, -180, 90],
+'tileSystem'  : [1, -1, -180, 90],
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=cva_c&x={x}&y={y}&l={z}',
 'subdomains'  : ['1','2','3','4','5'],
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
