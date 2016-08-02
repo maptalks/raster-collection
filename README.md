@@ -1,7 +1,7 @@
 # raster-collection
 A collection of raster tile service's urlTemplates and subDomains.
 
-What is urlTemplate and subdomains? e.g.
+[What is urlTemplate and subdomains?](http://leafletjs.com/reference.html#url-template) e.g.
 
 ```javascript
 'http://{s}.somedomain.com/blabla/{z}/{x}/{y}.png'
