@@ -9,6 +9,9 @@ A collection of raster tile service's urlTemplates and subDomains.
 {s} means one of the available subdomains of the tile service, (used sequentially to help with browser parallel requests per domain limitation), {z} — zoom level, {x} and {y} — tile coordinates.
 
 # World
+
+## openstreetmap.org
+
 * [Open Street Map Standard](http://www.openstreetmap.org) 
 
 ![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-standard.png)
@@ -44,6 +47,8 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains' : ['a','b','c'],
 'attribution' : '&copy; <a href="http://www.osm.org" target="_blank">OpenStreetMap</a> contributors'
 ```
+
+## carto.com
 
 * [Carto.com Light](http://www.carto.com) 
 
@@ -81,7 +86,90 @@ A collection of raster tile service's urlTemplates and subDomains.
 'attribution' : '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
 ```
 
-#China
+# China
+
+## map.baidu.com
+
+* [Baidu Standard](http://map.baidu.com)
+
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/baidu-standard.png)
+```javascript
+'urlTemplate' : 'http://online{s}.map.bdimg.com/onlinelabel/?qt=tile&x={x}&y={y}&z={z}&styles=pl&scaler=1&p=1',
+'subdomains'  : [0,1,2,3,4,5,6,7,8,9],
+'attribution' : '&copy; <a href="http://map.baidu.com/">Baidu</a>'
+```
+
+* [Baidu Road](http://map.baidu.com)
+
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/baidu-road.png)
+```javascript
+'urlTemplate' : 'http://online{s}.map.bdimg.com/tile/?qt=tile&x={x}&y={y}&z={z}&styles=sl&v=020',
+'subdomains'  : [0,1,2,3,4,5,6,7,8,9],
+'attribution' : '&copy; <a href="http://map.baidu.com/">Baidu</a>'
+```
+
+* [Baidu Satelite](http://map.baidu.com)
+
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/baidu-sat.png)
+```javascript
+'urlTemplate' : 'http://shangetu{s}.map.bdimg.com/it/u=x={x};y={y};z={z};v=009;type=sate&fm=46',
+'subdomains'  : [0,1,2,3,4,5,6,7,8,9],
+'attribution' : '&copy; <a href="http://map.baidu.com/">Baidu</a>'
+```
+
+* [Baidu Custom](http://map.baidu.com)
+
+  Baidu Custom's style is decided by customid in URL, screen shots for different customid is as below:
+
+```javascript
+'urlTemplate' : 'http://api{s}.map.bdimg.com/customimage/tile?&x={x}&y={y}&z={z}&scale=1&customid={customid}',
+'subdomains'  : [0, 1, 2],
+'attribution' : '&copy; <a href="http://map.baidu.com/">Baidu</a>'
+```
+
+<div>
+<table><tbody>
+    <tr>
+        <td>dark</td>
+        <td>midnight</td>
+        <td>grayscale</td>
+        <td>hardedge</td>
+    </tr>
+    <tr>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-dark.png)</td>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-midnight.png)</td>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-grayscale.png)</td>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-hardedge.png)</td></td>
+    </tr>
+    <tr>        
+        <td>light</td>
+        <td>redalert</td>
+        <td>googlelite</td>
+        <td>grassgreen</td>
+    </tr>
+    <tr>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-light.png)</td>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-redalert.png)</td>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-googlelite.png)</td>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-grassgreen.png)</td></td>
+    </tr>
+    <tr>        
+        <td>pink</td>
+        <td>darkgreen</td>
+        <td>bluish</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-pink.png)</td>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-darkgreen.png)</td>
+        <td>![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-bluish.png)</td>
+        <td></td></td>
+    </tr>
+</tbody></table>
+</div>
+
+
+## gaode.com
 
 * [Gaode Standard](http://www.gaode.com)
 
@@ -109,6 +197,8 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains'  : ['01','02','03','04'],
 'attribution' : '&copy; <a href="http://www.gaode.com/">Gaode.com</a>'
 ```
+
+## tianditu
 
 * [Tianditu Standard Mercator](http://www.tianditu.cn)
 
