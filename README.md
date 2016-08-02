@@ -109,3 +109,39 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains'  : ['01','02','03','04'],
 'attribution' : '&copy; <a href="http://www.gaode.com/">Gaode.com</a>'
 ```
+
+* [Tianditu Standard Mercator](http://www.tianditu.cn)
+
+```javascript
+'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=vec_w&x={x}&y={y}&l={z}',
+'subdomains'  : ['1','2','3','4','5']
+'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
+```
+
+* [Tianditu Road Mercator](http://www.tianditu.cn)
+
+```javascript
+'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}',
+'subdomains'  : ['1','2','3','4','5']
+'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
+```
+
+* [Tianditu Standard LonLat](http://www.tianditu.cn)
+
+Projection : **EPSG:4326**
+
+```javascript
+'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=vec_c&x={x}&y={y}&l={z}',
+'subdomains'  : ['1','2','3','4','5']
+'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
+```
+
+* [Tianditu Road LonLat](http://www.tianditu.cn)
+
+Projection : **EPSG:4326**
+
+```javascript
+'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=cva_c&x={x}&y={y}&l={z}',
+'subdomains'  : ['1','2','3','4','5']
+'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
+```
