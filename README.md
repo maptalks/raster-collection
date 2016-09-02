@@ -14,7 +14,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Open Street Map Standard](http://www.openstreetmap.org) 
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-standard.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/osm-standard.png)
 
 ```javascript
 'urlTemplate' : 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
@@ -24,7 +24,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Open Street Map Bicycle](http://www.openstreetmap.org/#layers=C) 
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-cycle.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/osm-cycle.png)
 
 ```javascript
 'urlTemplate' : 'http://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png',
@@ -34,7 +34,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Open Street Map Transport](http://www.openstreetmap.org/#layers=T) 
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-transport.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/osm-transport.png)
 ```javascript
 'urlTemplate' : 'http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png',
 'subdomains'  : ['a','b','c'],
@@ -43,7 +43,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Open Street Map Humanitarian](http://www.openstreetmap.org/#layers=H) 
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/osm-human.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/osm-human.png)
 ```javascript
 'urlTemplate' : 'http://tile-{s}.openstreetmap.fr/hot/{z}/{x}/{y}.png',
 'subdomains'  : ['a','b','c'],
@@ -54,7 +54,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Carto.com Light](http://www.carto.com) 
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/carto-light.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/carto-light.png)
 ```javascript
 'urlTemplate' : 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
 'subdomains'  : ['a','b','c','d','e'],
@@ -63,7 +63,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Carto.com Light No-Label](http://www.carto.com) 
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/carto-light-nolabel.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/carto-light-nolabel.png)
 ```javascript
 'urlTemplate' : 'http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',
 'subdomains'  : ['a','b','c','d','e'],
@@ -72,7 +72,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Carto.com Dark](http://www.carto.com) 
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/carto-dark.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/carto-dark.png)
 ```javascript
 'urlTemplate' : 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
 'subdomains'  : ['a','b','c','d','e'],
@@ -81,7 +81,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Carto.com Dark No-Label](http://www.carto.com) 
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/carto-dark-nolabel.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/carto-dark-nolabel.png)
 ```javascript
 'urlTemplate' : 'http://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}.png',
 'subdomains'  : ['a','b','c','d','e'],
@@ -93,7 +93,8 @@ A collection of raster tile service's urlTemplates and subDomains.
 ## ditu.google.cn
 
 * [Google Standard](http://ditu.google.cn)
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/google-standard.png)
+
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/google-cn-standard.png)
 ```javascript
 'urlTemplate' : 'http://www.google.cn/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m3!1e0!2sm!3i342009817!3m9!2sen-US!3sCN!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&token=32965',
 'attribution' : '&copy; <a href="http://ditu.google.cn/">Google</a>'
@@ -103,7 +104,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Baidu Standard](http://map.baidu.com)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/baidu-standard.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/baidu-standard.png)
 ```javascript
 'urlTemplate' : 'http://online{s}.map.bdimg.com/onlinelabel/?qt=tile&x={x}&y={y}&z={z}&styles=pl&scaler=1&p=1',
 'subdomains'  : [0,1,2,3,4,5,6,7,8,9],
@@ -112,7 +113,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Baidu Road](http://map.baidu.com)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/baidu-road.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/baidu-road.png)
 ```javascript
 'urlTemplate' : 'http://online{s}.map.bdimg.com/tile/?qt=tile&x={x}&y={y}&z={z}&styles=sl&v=020',
 'subdomains'  : [0,1,2,3,4,5,6,7,8,9],
@@ -121,7 +122,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Baidu Satelite](http://map.baidu.com)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/baidu-sat.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/baidu-sat.png)
 ```javascript
 'urlTemplate' : 'http://shangetu{s}.map.bdimg.com/it/u=x={x};y={y};z={z};v=009;type=sate&fm=46',
 'subdomains'  : [0,1,2,3,4,5,6,7,8,9],
@@ -147,10 +148,10 @@ A collection of raster tile service's urlTemplates and subDomains.
         <td>hardedge</td>
     </tr>
     <tr>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-dark.png"></td>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-midnight.png"></td>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-grayscale.png"></td>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-hardedge.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-dark.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-midnight.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-grayscale.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-hardedge.png"></td>
     </tr>
     <tr>        
         <td>light</td>
@@ -159,10 +160,10 @@ A collection of raster tile service's urlTemplates and subDomains.
         <td>grassgreen</td>
     </tr>
     <tr>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-light.png"></td>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-redalert.png"></td>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-googlelite.png"></td>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-grassgreen.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-light.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-redalert.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-googlelite.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-grassgreen.png"></td>
     </tr>
     <tr>        
         <td>pink</td>
@@ -171,9 +172,9 @@ A collection of raster tile service's urlTemplates and subDomains.
         <td></td>
     </tr>
     <tr>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-pink.png"></td>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-darkgreen.png"></td>
-        <td><img src="https://github.com/MapTalks/raster-collection/raw/master/screenshots/bd-c-bluish.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-pink.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-darkgreen.png"></td>
+        <td><img src="https://github.com/maptalks/raster-collection/raw/master/screenshots/bd-c-bluish.png"></td>
         <td></td>
     </tr>
 </tbody></table>
@@ -184,7 +185,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Gaode Standard](http://www.gaode.com)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/gaode-standard.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/gaode-standard.png)
 ```javascript
 'urlTemplate' : 'http://webrd{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}',
 'subdomains'  : ['01','02','03','04'],
@@ -193,7 +194,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Gaode Satelite](http://www.gaode.com)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/gaode-sat.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/gaode-sat.png)
 ```javascript
 'urlTemplate' : 'http://webst{s}.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}',            
 'subdomains'  : ['01','02','03','04'],
@@ -202,7 +203,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Gaode Road](http://www.gaode.com)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/gaode-road.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/gaode-road.png)
 ```javascript
 'urlTemplate' : 'http://webst{s}.is.autonavi.com/appmaptile?x={x}&y={y}&z={z}&lang=zh_cn&size=1&scale=1&style=8',
 'subdomains'  : ['01','02','03','04'],
@@ -213,7 +214,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Tianditu Standard Mercator](http://www.tianditu.cn)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/tdt-standard.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/tdt-standard.png)
 
 ```javascript
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=vec_w&x={x}&y={y}&l={z}',
@@ -223,7 +224,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Tianditu Label Mercator](http://www.tianditu.cn)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/tdt-label.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/tdt-label.png)
 
 ```javascript
 'urlTemplate' : 'http://t{s}.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}',
@@ -233,7 +234,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Tianditu Standard LonLat](http://www.tianditu.cn) (Projection : **EPSG:4326**)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/tdt-4326-standard.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/tdt-4326-standard.png)
 
 ```javascript
 'tileSystem'  : [1, -1, -180, 90],
@@ -244,7 +245,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 * [Tianditu Label LonLat](http://www.tianditu.cn) (Projection : **EPSG:4326**)
 
-![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/tdt-4326-label.png)
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/tdt-4326-label.png)
 
 ```javascript
 'tileSystem'  : [1, -1, -180, 90],
