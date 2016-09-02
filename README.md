@@ -90,6 +90,15 @@ A collection of raster tile service's urlTemplates and subDomains.
 
 # China
 
+## ditu.google.cn
+
+* [Google Standard](http://ditu.google.cn)
+![image](https://github.com/MapTalks/raster-collection/raw/master/screenshots/google-standard.png)
+```javascript
+'urlTemplate' : 'http://www.google.cn/maps/vt?pb=!1m5!1m4!1i{z}!2i{x}!3i{y}!4i256!2m3!1e0!2sm!3i342009817!3m9!2sen-US!3sCN!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&token=32965',
+'attribution' : '&copy; <a href="http://ditu.google.cn/">Google</a>'
+```
+
 ## map.baidu.com (Projection : **baidu**)
 
 * [Baidu Standard](http://map.baidu.com)
