@@ -254,7 +254,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
 ```
 
-* [Tianditu English]
+* [Tianditu English](http://en.tianditu.com/map/index.html) (Projection : **EPSG:4326**)
 
 ![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/tdt-eng-4326-base.png)
 
@@ -264,7 +264,7 @@ A collection of raster tile service's urlTemplates and subDomains.
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">Tianditu</a>'
 ```
 
-* [Tianditu English Labels]
+* [Tianditu English Labels](http://en.tianditu.com/map/index.html) (Projection : **EPSG:4326**)
 
 ![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/tdt-eng-4326-label.png)
 
