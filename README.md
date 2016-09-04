@@ -253,3 +253,23 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains'  : ['1','2','3','4','5'],
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
 ```
+
+* [Tianditu English]
+
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/tdt-eng-4326-base.png)
+
+```javascript
+'urlTemplate' : 'http://t{s}.tianditu.cn/eva_c/wmts?service=wmts&request=GetTile&version=1.0.0&LAYER=eva&tileMatrixSet=c&TileMatrix={z}&TileRow={y}&TileCol={x}&style=default&format=tiles',
+'subdomains'  : ['1','2','3','4','5'],
+'attribution' : '&copy; <a href="http://www.tianditu.cn/">Tianditu</a>'
+```
+
+* [Tianditu English Labels]
+
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/tdt-eng-4326-label.png)
+
+```javascript
+'urlTemplate' : 'http://t{s}.tianditu.cn/vec_c/wmts?service=wmts&request=GetTile&version=1.0.0&LAYER=vec&tileMatrixSet=c&TileMatrix={z}&TileRow={y}&TileCol={x}&style=default&format=tiles',
+'subdomains'  : ['1','2','3','4','5'],
+'attribution' : '&copy; <a href="http://www.tianditu.cn/">Tianditu</a>'
+```
