@@ -210,6 +210,16 @@ A collection of raster tile service's urlTemplates and subDomains.
 'attribution' : '&copy; <a href="http://www.gaode.com/">Gaode.com</a>'
 ```
 
+* [Gaode Traffic](http://www.gaode.com)
+
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/gaode-traffic.png)
+```javascript
+'urlTemplate' : function (x, y, z) {
+    return 'http://tm.amap.com/trafficengine/mapabc/traffictile?v=1.0&;t=1&z=' + z + '&y=' + y + '&x=' + x + '&t=' + new Date().getTime();
+},
+'attribution' : '&copy; <a href="http://www.gaode.com/">Gaode.com</a>'
+```
+
 ## tianditu
 
 * [Tianditu Standard Mercator](http://www.tianditu.cn)
