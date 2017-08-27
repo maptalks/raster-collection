@@ -120,6 +120,16 @@ A collection of raster tile service's urlTemplates and subDomains.
 'attribution' : '&copy; <a href="http://map.baidu.com/">Baidu</a>'
 ```
 
+* [Baidu Traffic](http://map.baidu.com)
+
+![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/baidu-traffic.png)
+```javascript
+'urlTemplate' : function (x, y, z) {
+    return 'http://its.map.baidu.com:8002/traffic/TrafficTileService?label=web2D&v=081&level=' + z + '&y=' + y + '&x=' + x + '&time=' + new Date().getTime();    
+},
+'attribution' : '&copy; <a href="http://map.baidu.com/">Baidu</a>'
+```
+
 * [Baidu Satelite](http://map.baidu.com)
 
 ![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/baidu-sat.png)
