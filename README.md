@@ -21,6 +21,12 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains'  : ['a','b','c'],
 'attribution' : '&copy; <a href="http://www.osm.org" target="_blank">OpenStreetMap</a> contributors'
 ```
+https
+```javascript
+'urlTemplate' : 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+'subdomains'  : ['a','b','c'],
+'attribution' : '&copy; <a href="http://www.osm.org" target="_blank">OpenStreetMap</a> contributors'
+```
 
 * [Open Street Map Bicycle](http://www.openstreetmap.org/#layers=C) 
 
@@ -60,6 +66,11 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains'  : ['a','b','c','d','e'],
 'attribution' : '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
 ```
+https
+```javascript
+'urlTemplate' : 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+'subdomains'  : ['a','b','c','d'],
+```
 
 * [Carto.com Light No-Label](http://www.carto.com) 
 
@@ -69,7 +80,11 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains'  : ['a','b','c','d','e'],
 'attribution' : '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
 ```
-
+https
+```javascript
+'urlTemplate' : 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png',
+'subdomains'  : ['a','b','c','d'],
+```
 * [Carto.com Dark](http://www.carto.com) 
 
 ![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/carto-dark.png)
@@ -78,7 +93,11 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains'  : ['a','b','c','d','e'],
 'attribution' : '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
 ```
-
+https
+```javascript
+'urlTemplate' : 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png',
+'subdomains'  : ['a','b','c','d'],
+```
 * [Carto.com Dark No-Label](http://www.carto.com) 
 
 ![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/carto-dark-nolabel.png)
@@ -87,7 +106,11 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains'  : ['a','b','c','d','e'],
 'attribution' : '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attributions">CARTO</a>'
 ```
-
+https
+```javascript
+'urlTemplate' : 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_nolabels/{z}/{x}/{y}.png',
+'subdomains'  : ['a','b','c','d'],
+```
 # China
 
 ## ditu.google.cn
@@ -109,6 +132,11 @@ A collection of raster tile service's urlTemplates and subDomains.
 'urlTemplate' : 'http://online{s}.map.bdimg.com/onlinelabel/?qt=tile&x={x}&y={y}&z={z}&styles=pl&scaler=1&p=1',
 'subdomains'  : [0,1,2,3,4,5,6,7,8,9],
 'attribution' : '&copy; <a href="http://map.baidu.com/">Baidu</a>'
+```
+https
+```javascript
+'urlTemplate' : 'https://gss{s}.bdstatic.com/8bo_dTSlRsgBo1vgoIiO_jowehsv/tile/?qt=tile&x={x}&y={y}&z={z}&styles=pl&scaler=1&udt=20170927',
+'subdomains':[0, 1, 2, 3]
 ```
 
 * [Baidu Road](http://map.baidu.com)
@@ -241,7 +269,11 @@ A collection of raster tile service's urlTemplates and subDomains.
 'subdomains'  : ['1','2','3','4','5'],
 'attribution' : '&copy; <a href="http://www.tianditu.cn/">天地图</a>'
 ```
-
+https
+```javascript
+urlTemplate:'https://t{s}.tianditu.com/DataServer?T=cva_c&x={x}&y={y}&l={z}',
+subdomains:['1', '2', '3', '4', '5']
+```
 * [Tianditu Label Mercator](http://www.tianditu.cn)
 
 ![image](https://github.com/maptalks/raster-collection/raw/master/screenshots/tdt-label.png)
